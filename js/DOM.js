@@ -276,7 +276,7 @@ function showHomePage(){
 		contenido.removeChild(contenido.firstChild); 
 	}
 
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Recogemos en variables el iterador de categorias
 	var categorias = video.categories;
@@ -328,7 +328,7 @@ function categoriesMenuPopulate(){
 	//Recogemos el elemento a partir del cual empezaremos a pintar
 	var menu = document.getElementById("menuvertical").getElementsByClassName("list-group")[0];
 
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Recogemos en variables el iterador de categorias
 	var categorias = video.categories;
@@ -358,7 +358,7 @@ function showActors(){
 
 	//Recogemos el elemento a partir del cual empezaremos a pintar
 	var contenido = document.getElementById("tarjetasprincipal");
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Mientras la variable contenido tenga hijos...
 	while(contenido.firstChild){
@@ -413,7 +413,7 @@ function showDirectors(){
 
 	//Recogemos el elemento a partir del cual empezaremos a pintar
 	var contenido = document.getElementById("tarjetasprincipal");
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Mientras la variable contenido tenga hijos...
 	while(contenido.firstChild){
@@ -477,7 +477,7 @@ function showActor(){
 
 	//Declaramos una variable booleana a false
 	var boolean = false;
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 	
 	//Recogemos en variables el iterador de actores
 	var actores = video.actors;
@@ -578,7 +578,7 @@ function showDirector(){
 	}
 
 	var boolean = false;
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 	
 	//Recogemos en variables el iterador de directores
 	var directores = video.directors;
@@ -679,7 +679,7 @@ function showProductions(){
 	}
 
 	var boolean = false;
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Recogemos en variables el iterador de categorias
 	var categorias = video.categories;
@@ -761,7 +761,7 @@ function showProduction(){
 	}
 
 	var boolean = false;
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Recogemos en variables el iterador de producciones
 	var producciones = video.productions;
@@ -941,7 +941,7 @@ function showResource(){
 		contenido.removeChild(contenido.firstChild); 
 	}
 
-	video = VideoSystem.getInstance();
+	var video = VideoSystem.getInstance();
 
 	//Recogemos en variables el iterador de producciones
 	var producciones = video.productions;

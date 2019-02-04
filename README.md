@@ -49,3 +49,6 @@ La nota máxima de la práctica será 10 puntos.
 ## Version 1.0.0
  - Creacion del fichero DOM.js
  - Añadir funcionalidad al fichero DOM.js
+
+## Version 1.0.1
+ - Correcion de errores
